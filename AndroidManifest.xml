@@ -1,16 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.omnirom.omnirecord"
+          package="org.hash.hashrecord"
           android:sharedUserId="android.uid.system">
 
     <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
 
     <application
         android:label="@string/app_name"
-        android:icon="@drawable/omnirom_logo" >
+        android:icon="@drawable/hash_logo" >
 
         <receiver android:name=".TakeScreenRecordService$ScreenRecordReceiver" >
             <intent-filter>
-                <action android:name="org.omnirom.omnirecord.ACTION_START" />
+                <action android:name="org.hash.hashrecord.ACTION_START" />
             </intent-filter>
         </receiver>
 

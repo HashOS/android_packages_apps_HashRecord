@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2018 The OmniROM Project
+ *  Copyright (C) 2018 HashOS
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
- package org.omnirom.omnirecord;
+ package org.hash.hashrecord;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -30,7 +30,7 @@ public class TakeScreenRecordService extends Service {
     public static final String ACTION_STOP = "stop";
     public static final String ACTION_TOGGLE_POINTER = "toggle_pointer";
     public static final String ACTION_TOGGLE_HINT = "toggle_hint";
-    public static final String ACTION_START = "org.omnirom.omnirecord.ACTION_START";
+    public static final String ACTION_START = "org.hash.hashrecord.ACTION_START";
     public static final String ACTION_EXTRA_MODE = "mode";
 
     private static GlobalScreenRecord mScreenrecord;
